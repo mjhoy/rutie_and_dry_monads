@@ -1,0 +1,32 @@
+PATH
+  remote: .
+  specs:
+    rutie_and_dry_monads (0.0.1)
+      dry-monads (~> 1.4)
+      rutie (~> 0.0.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.1.10)
+    dry-core (0.8.1)
+      concurrent-ruby (~> 1.0)
+    dry-monads (1.4.0)
+      concurrent-ruby (~> 1.0)
+      dry-core (~> 0.7)
+    minitest (5.16.3)
+    rutie (0.0.4)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  bundler (>= 2.3.7)
+  minitest (~> 5.11)
+  rutie_and_dry_monads!
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.3.7

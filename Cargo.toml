@@ -1,0 +1,11 @@
+[package]
+name = "rutie_and_dry_monads"
+version = "0.0.1"
+edition = "2021"
+
+[dependencies]
+rutie = "0.8.4"
+
+[lib]
+name = "rutie_and_dry_monads"
+crate-type = ["cdylib"]
